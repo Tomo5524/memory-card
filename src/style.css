@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  /* color: white; */
+}
+
+.react-img {
+  background-image: url(components/images/react.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vue-img {
+  background-image: url(components/images/vue.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.js-img {
+  background-image: url(components/images/js.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.py-img {
+  background-image: url(components/images/python-logo-generic.svg);
+  background-repeat: no-repeat;
+  background-position: -5% 50%;
+  background-size: cover;
+}
+
+.angular-img {
+  background-image: url(components/images/angular.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.card-box {
+  width: 200px;
+  height: 200px;
+}
