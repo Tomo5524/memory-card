@@ -6,7 +6,11 @@ function Nav(props) {
   return (
     <div className="d-flex justify-content-between align-items-center py-4 text-white">
       <h1>Stacks Memory Card</h1>
-      <h4>Turn: {props.value}</h4>
+      <div>
+        <h4>Game: {props.playNum}</h4>
+        <h4>Turn: {props.turn}</h4>
+      </div>
+
       {/* <Card
           value={library}
           changeHandle={deleteHandle}

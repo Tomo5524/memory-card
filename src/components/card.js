@@ -13,7 +13,7 @@ function Card(props) {
     />
   ));
 
-  return <div className="d-flex flex-wrap">{cards}</div>;
+  return <div className="d-flex flex-wrap cards-container">{cards}</div>;
 }
 
 export default Card;

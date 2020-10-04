@@ -1,5 +1,5 @@
 // import React from "react";
-import React, { useState, useEffect } from "react";
+import React from "react";
 // import "font-awesome/css/font-awesome.min.css";
 
 function ShowCards(props) {
@@ -41,7 +41,9 @@ function ShowCards(props) {
     <div
       className={
         "m-2 radius card-box " +
-        (props.value.fliped ? getImage(props.value.name) : "bg-white")
+        (props.value.flipped
+          ? getImage(props.value.name) + " border flip"
+          : "card-bg border")
       }
       onClick={() => {
         props.onClick(props.value);
@@ -52,9 +54,8 @@ function ShowCards(props) {
     >
       {/* <div className="d-flex  justify-content-between w-100">        
       </div> */}
-      <p className="d-flex justify-content-center align-items-center h-100">
-        {props.value.fliped ? "" : props.value.name}
-        {/* use emoji instae of name */}
+      <p className="d-flex justify-content-center align-items-center h-100 text-size">
+        {props.value.flipped ? "" : "😛"}
       </p>
     </div>
   );
