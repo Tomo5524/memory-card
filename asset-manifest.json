@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.37e7c88d.chunk.css",
+    "main.js": "/memory-card/static/js/main.4b0ecc14.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.4b0ecc14.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.4cf988ce.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.4cf988ce.js.map",
+    "static/js/2.16abd75c.chunk.js": "/memory-card/static/js/2.16abd75c.chunk.js",
+    "static/js/2.16abd75c.chunk.js.map": "/memory-card/static/js/2.16abd75c.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "precache-manifest.87ba70a24a53f821837102b581029e73.js": "/memory-card/precache-manifest.87ba70a24a53f821837102b581029e73.js",
+    "service-worker.js": "/memory-card/service-worker.js",
+    "static/css/main.37e7c88d.chunk.css.map": "/memory-card/static/css/main.37e7c88d.chunk.css.map",
+    "static/js/2.16abd75c.chunk.js.LICENSE.txt": "/memory-card/static/js/2.16abd75c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/memory-card/static/media/vue.4a16cd4e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cf988ce.js",
+    "static/js/2.16abd75c.chunk.js",
+    "static/css/main.37e7c88d.chunk.css",
+    "static/js/main.4b0ecc14.chunk.js"
+  ]
+}
